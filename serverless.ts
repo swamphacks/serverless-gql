@@ -28,7 +28,7 @@ const serverlessConfiguration: Serverless = {
   },
   functions: {
     graphql: {
-      handler: 'handler.graphqlHandler',
+      handler: 'src/handler.graphqlHandler',
       memorySize: 128,
       events: [
         {
