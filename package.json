@@ -48,7 +48,7 @@
   "author": "Zachary Cowan",
   "license": "MIT",
   "lint-staged": {
-    "*.ts": "eslint --max-warnings=0 --cache --fix",
-    "*./src": "prettier --write"
+    "*.ts": "npx eslint --max-warnings=0 --cache --fix",
+    "*./src": "npx prettier --write"
   }
 }
